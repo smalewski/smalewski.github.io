@@ -1,0 +1,219 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face {
+    font-family: 'Chiller';
+    src: url('Chiller-Regular.woff2') format('woff2'),
+         url('Chiller-Regular.woff') format('woff'),
+         url('chiller.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    text-align: center;
+    background: url("../images/bg-blackstar.gif");
+    color: #ff0099;
+    font-family: 'Chiller';
+    font-size: 30px;
+    cursor: url("../images/ankh.cur"), auto !important;
+}
+
+h1, h2 {
+    width: min-content;
+}
+
+h1 {
+    align: center;
+    margin:0 25px;
+    padding:0 10px;
+    height:70px;
+    width: 320px;
+    top: 95px;
+    left: 95px;
+    position: relative;
+}
+
+h2 {
+    height: 50px;
+    margin: 0 auto;
+}
+
+div {
+    width: 50%;
+    margin: 0 auto;
+    align: center;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.skull {
+    height: 30px;
+}
+
+.avatar {
+    height: 50px;
+}
+
+#top{
+    height: 260px;
+    width: 529px;
+    background: url("../images/fire2.gif") 0 0 no-repeat;
+}
+
+#moviestack {
+    text-align: center;
+}
+
+#proxima {
+}
+
+#proxima p {
+    text-align: center;
+}
+
+#vistas {
+}
+
+#title-vistas {
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+#title-vistas img {
+    height: 90px;
+}
+
+#table-vistas {
+    font-size: 30px;
+    margin: 10px auto;
+    border: ridge 2px white;
+    border-collapse: separate;
+}
+
+#table-vistas th, td {
+    padding: 5px 10px;
+    border: ridge 2px white;
+    border-collapse: separate;
+}
+
+#leyenda {
+    width: 100%;
+}
+
+#leyenda ul {
+    columns: 5;
+}
+
+#leyenda-title {
+    width: 368px;
+    height: 112px;
+    background: url("../images/vortex.gif") 0 0 no-repeat;
+}
+
+#leyenda-title h2 {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+#thunders {
+    width: 100%;
+    height: 180px;
+}
+
+#dancers {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: url("../images/flamebg.gif");
+}
+
+/* AWESOME */
+
+.multicolortext1 {
+    /* background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red); */
+    background-image: linear-gradient(to left, indigo, orange);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortext2 {
+    background-image: linear-gradient(to left, red, darkred, red, darkred, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortext3 {
+    /* background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red); */
+    background-image: linear-gradient(to left, green, indigo, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.multicolortext4 {
+    /* background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red); */
+    background-image: linear-gradient(to left, pink, darkred);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+blink, .blink {
+
+    -webkit-animation: blink 1s step-end infinite;
+
+    -moz-animation: blink 1s step-end infinite;
+
+    -o-animation: blink 1s step-end infinite;
+
+    animation: blink 1s step-end infinite;
+
+}
+
+
+@-webkit-keyframes blink {
+
+    67% { opacity: 0 }
+
+}
+
+
+@-moz-keyframes blink {
+
+    67% { opacity: 0 }
+
+}
+
+
+@-o-keyframes blink {
+
+    67% { opacity: 0 }
+
+}
+
+
+@keyframes blink {
+
+    67% { opacity: 0 }
+
+}
